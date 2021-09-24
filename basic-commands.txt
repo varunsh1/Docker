@@ -1,0 +1,92 @@
+Docker :Docker is an open platform for developing, shipping, and running applications.
+
+Image: files containing softwares
+
+Container: runs on a machine contains image
+
+---------------------------------------------------
+
+1. To check the version of the docker
+
+docker -v
+
+
+
+2. To check the list of images in the docker
+
+docker images
+
+
+
+3. To check the list of images in the docker
+
+docker image ls
+
+
+
+4. To list running containers
+
+docker ps 
+
+
+
+5. To list all containers
+
+docker ps —all
+
+
+
+6. To download the docker image in the local storage
+
+docker pull redis
+
+
+
+7. To start the container
+
+docker start <CONTAINER ID>
+
+
+
+8. To restart the container--
+
+docker restart <CONTAINER ID>
+
+
+
+9. To pause the container
+
+docker pause <CONTAINER ID>
+
+
+
+10. To stop the running container
+
+docker stop <CONTAINER ID>
+
+
+
+11. To remove the docker image from local
+
+docker rmi <IMAGE ID>
+
+
+
+12. To forcefully remove the image from local
+
+docker rmi <IMAGE ID> —force
+
+
+
+13. To rename the docker container
+
+docker rename [CONTAINER_NAME] [NEW_CONTAINER_NAME]
+
+
+
+14. To remove the container
+
+docker rm <CONTAINER_ID>
+
+
+
